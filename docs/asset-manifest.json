@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gitxomeapp/static/css/main.9b8e1c55.chunk.css",
-    "main.js": "/gitxomeapp/static/js/main.485116ea.chunk.js",
-    "main.js.map": "/gitxomeapp/static/js/main.485116ea.chunk.js.map",
+    "main.js": "/gitxomeapp/static/js/main.f0f0ab7a.chunk.js",
+    "main.js.map": "/gitxomeapp/static/js/main.f0f0ab7a.chunk.js.map",
     "runtime-main.js": "/gitxomeapp/static/js/runtime-main.12b6dfed.js",
     "runtime-main.js.map": "/gitxomeapp/static/js/runtime-main.12b6dfed.js.map",
     "static/css/2.44451582.chunk.css": "/gitxomeapp/static/css/2.44451582.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.44451582.chunk.css",
     "static/js/2.5ea5b44d.chunk.js",
     "static/css/main.9b8e1c55.chunk.css",
-    "static/js/main.485116ea.chunk.js"
+    "static/js/main.f0f0ab7a.chunk.js"
   ]
 }
