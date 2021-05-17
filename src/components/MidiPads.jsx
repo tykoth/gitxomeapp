@@ -70,7 +70,7 @@ class MidiPads extends Component {
     const { pads, padButtonEdit } = this.props;
 
     return (
-      <div id="pad-buttons-wrapper">
+      <div id="pad-buttons-wrapper" onMouseUp={() => { this.onHold = false;}}>
         {pads.map((item, idx) => {
           return (
             <PadButton

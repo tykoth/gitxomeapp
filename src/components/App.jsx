@@ -12,7 +12,7 @@ class App extends Component {
     const isEditMode = padButtonEdit !== null;
 
     return (
-      <div id="app">
+      <div id="app" onMouseUp={() => { window.onHold = false; }}>
         <div id="midi-pad">
           <MidiControls />
           <MidiPads />
