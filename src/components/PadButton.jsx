@@ -104,13 +104,18 @@ class PadButton extends Component {
 
     const displayStr = srcName.substring(0, srcName.indexOf(" "));
     const classStr = classnames(classStrObj);
-
+    
     return (
       <div
         onContextMenu={this.handleContextMenu}
         className="pad-button-context-area"
       >
-        <div className={classStr} ref={this.buttonRef} onClick={play}>
+        <div className={classStr} ref={this.buttonRef} 
+
+		onMouseDown={(e) => { window.onHold = true; return play(e); }}
+		onMouseOver={(e) => { return (window.onHold === true) ? play(e) : false; }}
+                onMouseUp={(e) => { window.onHold = false; return false; }}
+	>
           <span className="text-display">
             {displayStr + " / " + shortcutKey}
           </span>
