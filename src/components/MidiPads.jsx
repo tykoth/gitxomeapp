@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { openButtonEditSidebar } from "../actions";
 import PadButton from "./PadButton";
+import GridButton from "./GridButton";
 
 import "../stylesheets/midi-buttons.scss";
 const _ = require("lodash");
@@ -73,7 +74,7 @@ class MidiPads extends Component {
       <div id="pad-buttons-wrapper" onMouseUp={() => { this.onHold = false;}}>
         {pads.map((item, idx) => {
           return (
-            <PadButton
+            <GridButton
               key={idx}
               idx={idx}
               srcName={item.srcName}

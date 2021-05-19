@@ -4,7 +4,7 @@ import "react-contexify/dist/ReactContexify.min.css";
 const Mousetrap = require("mousetrap");
 const classnames = require("classnames");
 
-class GridButton extends Component {
+class PadButton extends Component {
   constructor(props) {
     super(props);
 
@@ -29,7 +29,7 @@ class GridButton extends Component {
     this.unbindShortcutKey();
   }
 
-  GridButtonContextMenu = () => (
+  PadButtonContextMenu = () => (
     <Menu
       id={this.contextMenuId}
       style={{ fontSize: "14px", lineHeight: "1.4" }}
@@ -95,7 +95,7 @@ class GridButton extends Component {
   render() {
     const { srcName, shortcutKey, color, play, isEditing } = this.props;
 
-    const colorClassStr = "pad-button " + color;
+    const colorClassStr = "pad-button " + '';
     const classStrObj = {
       active: this.state.isActive
     };
@@ -117,7 +117,6 @@ class GridButton extends Component {
                 onMouseUp={(e) => { window.onHold = false; return false; }}
 	>
           <span className="text-display">
-            {displayStr + " / " + shortcutKey}
           </span>
 
           {isEditing && (
@@ -128,10 +127,10 @@ class GridButton extends Component {
           )}
         </div>
 
-        <this.GridButtonContextMenu />
+        <this.PadButtonContextMenu />
       </div>
     );
   }
 }
 
-export default GridButton;
+export default PadButton;
