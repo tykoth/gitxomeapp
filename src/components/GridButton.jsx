@@ -110,8 +110,25 @@ class PadButton extends Component {
         onContextMenu={this.handleContextMenu}
         className="pad-button-context-area"
       >
-        <div className={classStr} ref={this.buttonRef} 
-
+        <div className={classStr} 
+        ref={this.buttonRef} 
+        onClick={play}
+        onPointerEnter={() => { console.log("ENTER"); }}
+        onTouchStart ={(e) => { console.log("start");   }}
+        onTouchEnd ={(e) => { console.log("end");  }}
+        onTouchMove={(e) => { 
+          var target = document.elementFromPoint(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+          
+          if(target === window.lastTarget) return;
+          for (var i=0; i < e.changedTouches.length; i++) {
+            console.log(["changedTouches[" + i + "].identifier = " + e.changedTouches[i].identifier]);
+            
+          }
+          // play(e);
+          // window.lastTarget = target;
+          // console.log('moving'); 
+        }}
+        // onTouchMove ={(e) => { console.log("mmm", e); window.onHold = true; return play(e);  }}
 		onMouseDown={(e) => { window.onHold = true; return play(e); }}
 		onMouseOver={(e) => { return (window.onHold === true) ? play(e) : false; }}
                 onMouseUp={(e) => { window.onHold = false; return false; }}

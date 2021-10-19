@@ -12,7 +12,18 @@ class App extends Component {
     const isEditMode = padButtonEdit !== null;
 
     return (
-      <div id="app" onMouseUp={() => { window.onHold = false; }}>
+      <div id="app" 
+      
+      onTouchStart={() => { console.log("fffff"); window.onHold = true; }}
+        onTouchMove={(e) => { 
+          var target = document.elementFromPoint(e.changedTouches[0].clientX, e.changedTouches[0].clientY);
+          
+          if(target === window.lastTarget) return;
+          target.click();
+          
+          window.lastTarget = target;
+        }}
+      onMouseUp={() => { window.onHold = false; }}>
         <div id="midi-pad">
           <MidiControls />
           <MidiPads />
