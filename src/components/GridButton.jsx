@@ -43,11 +43,12 @@ class PadButton extends Component {
 
   handleContextMenu(e) {
     e.preventDefault();
-    contextMenu.show({
-      id: this.contextMenuId,
-      event: e,
-      props: {}
-    });
+    // nah why?
+    // contextMenu.show({
+    //   id: this.contextMenuId,
+    //   event: e,
+    //   props: {}
+    // });
   }
 
   bindShortcutKey() {
