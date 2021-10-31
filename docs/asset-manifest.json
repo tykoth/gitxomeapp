@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gitxomeapp/static/css/main.d755d766.chunk.css",
+    "main.js": "/gitxomeapp/static/js/main.4bd96daf.chunk.js",
+    "main.js.map": "/gitxomeapp/static/js/main.4bd96daf.chunk.js.map",
+    "runtime-main.js": "/gitxomeapp/static/js/runtime-main.d4575cd9.js",
+    "runtime-main.js.map": "/gitxomeapp/static/js/runtime-main.d4575cd9.js.map",
+    "static/css/2.cc89cc2a.chunk.css": "/gitxomeapp/static/css/2.cc89cc2a.chunk.css",
+    "static/js/2.a80daf77.chunk.js": "/gitxomeapp/static/js/2.a80daf77.chunk.js",
+    "static/js/2.a80daf77.chunk.js.map": "/gitxomeapp/static/js/2.a80daf77.chunk.js.map",
+    "index.html": "/gitxomeapp/index.html",
+    "static/css/2.cc89cc2a.chunk.css.map": "/gitxomeapp/static/css/2.cc89cc2a.chunk.css.map",
+    "static/css/main.d755d766.chunk.css.map": "/gitxomeapp/static/css/main.d755d766.chunk.css.map",
+    "static/js/2.a80daf77.chunk.js.LICENSE.txt": "/gitxomeapp/static/js/2.a80daf77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4575cd9.js",
+    "static/css/2.cc89cc2a.chunk.css",
+    "static/js/2.a80daf77.chunk.js",
+    "static/css/main.d755d766.chunk.css",
+    "static/js/main.4bd96daf.chunk.js"
+  ]
+}
