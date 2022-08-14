@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/gitxomeapp/static/css/main.2dd0f228.css",
-    "main.js": "/gitxomeapp/static/js/main.aa2379fc.js",
-    "static/js/845.2400d5ba.chunk.js": "/gitxomeapp/static/js/845.2400d5ba.chunk.js",
-    "static/media/squibblers.png": "/gitxomeapp/static/media/squibblers.34722112eb1ad955ac62.png",
-    "index.html": "/gitxomeapp/index.html",
-    "main.2dd0f228.css.map": "/gitxomeapp/static/css/main.2dd0f228.css.map",
-    "main.aa2379fc.js.map": "/gitxomeapp/static/js/main.aa2379fc.js.map",
-    "845.2400d5ba.chunk.js.map": "/gitxomeapp/static/js/845.2400d5ba.chunk.js.map"
+    "main.css": "/static/css/main.fd51b6d6.css",
+    "main.js": "/static/js/main.b357a2ab.js",
+    "static/js/845.3d331aa5.chunk.js": "/static/js/845.3d331aa5.chunk.js",
+    "index.html": "/index.html",
+    "main.fd51b6d6.css.map": "/static/css/main.fd51b6d6.css.map",
+    "main.b357a2ab.js.map": "/static/js/main.b357a2ab.js.map",
+    "845.3d331aa5.chunk.js.map": "/static/js/845.3d331aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dd0f228.css",
-    "static/js/main.aa2379fc.js"
+    "static/css/main.fd51b6d6.css",
+    "static/js/main.b357a2ab.js"
   ]
 }
